@@ -61,7 +61,7 @@ My notable public works are listed below. Private techniques/tools, still active
 #### ⚡ 96 WAF Filter Sets Never Seen Before
 > Rebrands and transforms your current static payloads into Thunder Striker XSS variants, blasting through any WAF in seconds.
 
-#### 🛡️ Advanced & Normal WAF Bypassers
+#### 🛡️ Advanced Port Scan
 > Invented 30+ new techniques to bypass and outsmart any firewall, including AI-based WAFs. Detects alive ports and identifies missing inspection layers or techniques to inject payloads, part of the NG-Firewalk-PortScan arsenal.
 
 ---
