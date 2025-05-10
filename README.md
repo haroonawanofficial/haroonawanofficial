@@ -28,7 +28,7 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ---
 
-### 🧬 Created Next-Gen Server-Side Request Forgery (SSRF) Techniques
+### 🧬 Created Next-Gen Request Forgery Techniques
 
 #### 🔁 Meta-Application Request Smuggling Forgery
 > Chains backend service calls by smuggling attacker-controlled params through one service into another. Bypasses access controls enforced only at the frontend.
@@ -56,14 +56,10 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ---
 
-### 🧬 Created Next-Gen WAF and Port Scanner
+### 🧬 Created Next-Gen WAF Techniques and Port Scanner
+> ⚡ 96 WAF Filter Sets Never Seen Before - Rebrands and transforms your current static payloads into Thunder Striker XSS variants, blasting through any WAF in seconds.
 
-#### ⚡ 96 WAF Filter Sets Never Seen Before
-> Rebrands and transforms your current static payloads into Thunder Striker XSS variants, blasting through any WAF in seconds.
-
-## 🚀 Advanced Port Scan – NG-Firewalk-PortScan Arsenal
-
-> **Invented 30+ original techniques** to bypass and outsmart any firewall, including **AI/ML-powered WAFs**.  
+### 🧬 Created Next-Gen Port Scan – NG-Firewalk-PortScan Arsenal
 > This scanner detects live ports, hidden segments, and reveals missing inspection layers – ideal for payload injection, segmentation traversal, and advanced reconnaissance.
 
 ### ICMP with DNS  
