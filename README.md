@@ -12,7 +12,7 @@ I’m an advanced cybersecurity expert specializing in inventing new, never-seen
 
 ---
 
-### 🧬 Next-Gen Cross Site Scripting (XSS) Techniques
+### 🧬 Created Next-Gen Cross Site Scripting (XSS) Techniques
 
 - WebGPU / WebXR / WebTransport API fuzzing  
 - Service-Worker cache poisoning vectors  
@@ -27,7 +27,7 @@ I’m an advanced cybersecurity expert specializing in inventing new, never-seen
 
 ---
 
-### 🌐 Advanced Server-Side Request Forgery (SSRF) Techniques
+### 🧬 Created Next-Gen Server-Side Request Forgery (SSRF) Techniques
 
 #### 🔁 Meta-Application Request Smuggling Forgery
 > Chains backend service calls by smuggling attacker-controlled params through one service into another. Bypasses access controls enforced only at the frontend.
