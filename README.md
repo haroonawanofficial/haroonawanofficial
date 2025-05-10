@@ -160,7 +160,7 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ---
 
-### 🧬 Created Next-Gen PHP Fuzzing Techniques
+### 🧬 Created Next-Gen Multi-STI (Server Template Injections) Fuzzing Techniques
 
 ### 🧬 BSTI (Bytecode-Level Template Injection)
 > Manipulates the template engine’s compiled bytecode cache (`.pyc`/memory) to alter execution paths.  
