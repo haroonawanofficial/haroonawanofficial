@@ -5,7 +5,7 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ---
 
-🔐 *Every technique listed here is based on real-world, operational proof-of-concepts built entirely from scratch. Copying my code or tools doesn’t make you a hacker or security researcher — there’s a significant difference. Instead, learn, use, improve, and contribute.*
+🔐 *Every technique listed here is based on real-world, operational proof-of-concepts built entirely from scratch. Copying my code or tools doesn’t make you a hacker or security researcher, there’s a significant difference. Instead, learn, use, improve, and contribute.*
 
 ---
 
