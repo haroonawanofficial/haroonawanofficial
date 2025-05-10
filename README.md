@@ -216,6 +216,35 @@ My notable public works are listed below. Private techniques/tools, still active
       Exploits IFS or null bytes (e.g. `$(IFS=' ';echo whoami)`, `%00id`)  
 
 
+### 🧬 Created Next-Gen HTTP, Layers and Protocols Fuzzing Techniques
+- **HTTP/2 Smuggling**  
+  Experimental “CL→TE” and “TE→CL” variants over HTTP/2 to bypass front-end/back-end checks.
+
+- **HTTP Trailer Injection**  
+  Abuse of chunked-transfer trailers (e.g. `0\r\nFlavor: CHEESE\r\n\r\n`) to smuggle headers.
+
+- **WebSocket Hijack & Fuzzing**  
+  In-page override of `window.WebSocket` → auto-discover WS endpoints → ping/pong exchange.
+
+- **SSE Trap & Injection**  
+  Hooking `EventSource` in the browser → auto-capture first `data:` event for injection feedback.
+
+- **Service Worker Abuse Detection**  
+  Scans `/sw.js` for vulnerable `importScripts()` calls and other SW logic flaws.
+
+- **AI-Driven XSS Mutation**  
+  CodeBERT-powered on-the-fly mutation of `<script>alert()</script>` into novel bypass variants.
+
+- **Prompt Injection Module**  
+  Embeds “Ignore previous instructions…” payloads into form/JSON params to hijack LLM back-ends.
+
+- **GraphQL Mutation Probing**  
+  Blind mutation tests (e.g. `mutation { __typename }`) in addition to standard `__schema` introspection.
+
+- **WASM Parser Fuzzing**  
+  Sends minimal, malformed WebAssembly binaries to uncover parser or runtime parsing errors.  
+
+
 ### 🧬 Created Next-Gen Tools
 - Bandasbahen - A browser-oriented fuzzing engine designed to uncover 0-day vulnerabilities, including exploit paths similar to those used by Pegasus but you can also uncover exact paths using this script.
 - Noctua - A GPU-accelerated, AI-powered payload injector that renders and analyzes content in real time to discover cross-site scripting and rendering-based flaws across modern apps, APIs, and endpoints.
