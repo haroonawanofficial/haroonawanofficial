@@ -126,16 +126,45 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ---
 
+### 🧬 Created Next-Gen Smugglign Techniques
+
+### 🛰️ HTTP/3 (QUIC) Header Fuzzing + HTTP/2 Chunk Desync
+- Sends malformed HTTP/3 (QUIC) pseudo-headers and misaligned frames
+- Includes raw socket-based **HTTP/2 Transfer-Encoding confusion**
+- Simulates CDN/WAF vs origin server parsing mismatch
+
+
+### 🧬 Shadow DOM XSS Auto-Fuzzing
+- Automatically detects and injects into **Shadow DOM, `<template>`, and `<slot>` contexts**
+- Fully integrated with Playwright to bypass standard DOM traversal
+
+### 🔁 DOM MutationObserver-Based Trigger Detection
+- Fuzzes targets that rely on dynamic JavaScript DOM updates
+- Uses MutationObservers to automatically trigger payloads in dynamic UIs
+
+### 📋 Clipboard Hijack via `oncopy=fetch(...)`
+- Injects HTML payloads that exfiltrate clipboard data or trigger fetch/XSS on copy
+
+### ⚔️ WebSocket Protocol XSS Injection
+- Establishes real-time WebSocket connections
+- Injects and validates payloads over socket messages, not HTTP
+
+### ⏱️ Async/Await XSS Race Exploits
+- Injects `async/await`-based payloads with delayed eval()
+- Bypasses content security filters triggered on immediate `eval` usage
+
+
 ### 🧬 Created Next-Gen Tools
 - Bandasbahen - A browser-oriented fuzzing engine designed to uncover 0-day vulnerabilities, including exploit paths similar to those used by Pegasus but you can also uncover exact paths using this script.
 - Noctua - A GPU-accelerated, AI-powered payload injector that renders and analyzes content in real time to discover cross-site scripting and rendering-based flaws across modern apps, APIs, and endpoints.
 - XSSInspector - It includes 96 advanced filter sets to uncover vulnerabilities often missed by human analysts and bypass over 95% of modern WAFs with precision.
 - PortScan - When tools like Nmap fail against firewalls like Palo Alto or Checkpoint, this next-generation port scanner uses advanced firewalk techniques to bypass defenses and validate open ports. It also suggests injection strategies for each detected service.
+- PHP_FUZZER - JS and PHP AI powered fuzzer to uncover many issues
 
 ---
 
 ### 🧬 Third Party Packages of the Tool Next-Gen Tools
-> XSSInspector - Available via apt search xssinspector (Kali/Debian based Linux third-party package).
+> XSSInspector - Available via apt search xssinspector (Kali or Debian based linux third-party package).
 
 ---
 
