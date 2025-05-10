@@ -233,7 +233,7 @@ My notable public works are listed below. Private techniques/tools, still active
   Scans `/sw.js` for vulnerable `importScripts()` calls and other SW logic flaws.
 
 - **AI-Driven XSS Mutation**  
-  CodeBERT-powered on-the-fly mutation of `<script>alert()</script>` into novel bypass variants.
+  AI-powered on-the-fly mutation of `<script>alert()</script>` into novel bypass variants.
 
 - **Prompt Injection Module**  
   Embeds “Ignore previous instructions…” payloads into form/JSON params to hijack LLM back-ends.
