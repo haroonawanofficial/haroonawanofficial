@@ -222,6 +222,9 @@ My notable public works are listed below. Private techniques/tools, still active
 - XSSInspector - It includes 96 advanced filter sets to uncover vulnerabilities often missed by human analysts and bypass over 95% of modern WAFs with precision.
 - PortScan - When tools like Nmap fail against firewalls like Palo Alto or Checkpoint, this next-generation port scanner uses advanced firewalk techniques to bypass defenses and validate open ports. It also suggests injection strategies for each detected service.
 - PHP_FUZZER - JS and PHP AI powered fuzzer to uncover many issues
+- MultiSTI - AI-Powered Multi-STI Turbo Charged Fuzzer for 0 Day Discovery in Modern Dynamic Web/Endpoint/Apps
+- MultiServerSide - AI-Powered Multi Request Forgeries Fuzzer for 0-Day Discovery in Modern Dynamic Web/Endpoint/Apps
+- Multi CMDi - AI‑Powered Command Injection Fuzzer for 0 Day Discovery in Modern Dynamic Web/Endpoint/Apps
 
 ---
 
