@@ -1,7 +1,9 @@
 # 👋 Hi, I’m Haroon Ahmad Awan
 
-I’m an advanced cybersecurity expert specializing in inventing new, never-seen-before techniques in cyber and information security.
-My notable public works are listed below. Private techniques/tools, still actively used in top-tier industries are not publicly available
+I’m an advanced cybersecurity expert specializing in inventing new, never-seen-before techniques in cyber and information security. My notable public works are listed below. Private techniques/tools, still actively used in top-tier industries are not publicly available.
+
+🔐 *Every technique listed here is based on real-world, operational proof-of-concepts built entirely from scratch. Copying my code or tools doesn’t make you a hacker or security researcher — there’s a significant difference. Instead, learn, use, improve, and contribute.*
+
 
 ---
 
@@ -167,8 +169,6 @@ My notable public works are listed below. Private techniques/tools, still active
 > XSSInspector - Available via apt search xssinspector (Kali or Debian based linux third-party package).
 
 ---
-
-🔐 *Every technique listed here is based on real-world, operational proof-of-concepts built entirely from scratch. Copying my code or tools doesn’t make you a hacker or security researcher — there’s a significant difference. Instead, learn, use, improve, and contribute.*
 
 📫 Connect or collaborate: [haroon@cyberzeus.pk](mailto:haroon@cyberzeus.pk)
 
