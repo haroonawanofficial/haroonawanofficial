@@ -126,13 +126,12 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ---
 
-### 🧬 Created Next-Gen Smugglign Techniques
+### 🧬 Created Next-Gen PHP Fuzzing Techniques
 
 ### 🛰️ HTTP/3 (QUIC) Header Fuzzing + HTTP/2 Chunk Desync
 - Sends malformed HTTP/3 (QUIC) pseudo-headers and misaligned frames
 - Includes raw socket-based **HTTP/2 Transfer-Encoding confusion**
 - Simulates CDN/WAF vs origin server parsing mismatch
-
 
 ### 🧬 Shadow DOM XSS Auto-Fuzzing
 - Automatically detects and injects into **Shadow DOM, `<template>`, and `<slot>` contexts**
@@ -141,6 +140,7 @@ My notable public works are listed below. Private techniques/tools, still active
 ### 🔁 DOM MutationObserver-Based Trigger Detection
 - Fuzzes targets that rely on dynamic JavaScript DOM updates
 - Uses MutationObservers to automatically trigger payloads in dynamic UIs
+- Auto tune per or post
 
 ### 📋 Clipboard Hijack via `oncopy=fetch(...)`
 - Injects HTML payloads that exfiltrate clipboard data or trigger fetch/XSS on copy
