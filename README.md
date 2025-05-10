@@ -62,7 +62,20 @@ My notable public works are listed below. Private techniques/tools, still active
 > Rebrands and transforms your current static payloads into Thunder Striker XSS variants, blasting through any WAF in seconds.
 
 #### 🛡️ Advanced & Normal WAF Bypassers
-> Invented 30+ new techniques to bypass and outsmart any firewall, including AI-based WAFs. Detects alive ports and identifies missing inspection layers or techniques to inject payloads — part of the NG-Firewalk-PortScan arsenal.
+> Invented 30+ new techniques to bypass and outsmart any firewall, including AI-based WAFs. Detects alive ports and identifies missing inspection layers or techniques to inject payloads, part of the NG-Firewalk-PortScan arsenal.
+
+---
+
+### 🧬 Created Next-Gen Tools
+> Bandasbahen - A browser-oriented fuzzing engine designed to uncover 0-day vulnerabilities, including exploit paths similar to those used by Pegasus but you can also uncover exact paths using this script.
+> Noctua - A GPU-accelerated, AI-powered payload injector that renders and analyzes content in real time to discover cross-site scripting and rendering-based flaws across modern apps, APIs, and endpoints.
+> XSSInspector - It includes 96 advanced filter sets to uncover vulnerabilities often missed by human analysts and bypass over 95% of modern WAFs with precision.
+> PortScan - When tools like Nmap fail against firewalls like Palo Alto or Checkpoint, this next-generation port scanner uses advanced firewalk techniques to bypass defenses and validate open ports. It also suggests injection strategies for each detected service.
+
+---
+
+### 🧬 Third Party Packages of the Tool Next-Gen Tools
+> XSSInspector - Available via apt search xssinspector (Kali/Debian based Linux third-party package).
 
 ---
 
@@ -72,10 +85,5 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ---
 
-### 🧬 Created Next-Gen Tools
-> Bandasbahen - Tune it to uncvoer any browser related bug that can lead to 0day example; Pegasus
-> Noctua - GPU and AI powered tuned code to inject and discover any rendered payload using AI which can help to uncover cross site and issues related to cross site such for any modern app/endpoint/api
-> XSSInspector - use apt search xssinspector (third party packaged kali linux package) - It created 96 filter set to uncover any portential vulnerabilities your mind/eyes left out, bypass 95% of Modern WAFs
-> PortScan - When nmap fails and defeated by firewalls like palo alto/checkpoint, it is time to use firewalk-ng port scan , it's a next generation port scnaner that will bypass any advanced FW in seconds to provide you validity of the port and how to inject payload using the techniques 
 
 
