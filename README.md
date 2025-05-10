@@ -56,7 +56,26 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ---
 
+### 🧬 Created Next-Gen WAF and Port Scanner
+
+#### ⚡ 96 WAF Filter Sets Never Seen Before
+> Rebrands and transforms your current static payloads into Thunder Striker XSS variants, blasting through any WAF in seconds.
+
+#### 🛡️ Advanced & Normal WAF Bypassers
+> Invented 30+ new techniques to bypass and outsmart any firewall, including AI-based WAFs. Detects alive ports and identifies missing inspection layers or techniques to inject payloads — part of the NG-Firewalk-PortScan arsenal.
+
+---
+
 🔐 *Every technique listed here is based on real-world, operational proof-of-concepts built from the ground up.*
 
 📫 Connect or collaborate: [haroon@cyberzeus.pk](mailto:haroon@cyberzeus.pk)
+
+---
+
+### 🧬 Created Next-Gen Tools
+> Bandasbahen - Tune it to uncvoer any browser related bug that can lead to 0day example; Pegasus
+> Noctua - GPU and AI powered tuned code to inject and discover any rendered payload using AI which can help to uncover cross site and issues related to cross site such for any modern app/endpoint/api
+> XSSInspector - use apt search xssinspector (third party packaged kali linux package) - It created 96 filter set to uncover any portential vulnerabilities your mind/eyes left out, bypass 95% of Modern WAFs
+> PortScan - When nmap fails and defeated by firewalls like palo alto/checkpoint, it is time to use firewalk-ng port scan , it's a next generation port scnaner that will bypass any advanced FW in seconds to provide you validity of the port and how to inject payload using the techniques 
+
 
