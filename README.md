@@ -60,8 +60,6 @@ My notable public works are listed below. Private techniques/tools, still active
 > ⚡ 96 WAF Filter Sets Never Seen Before - Rebrands and transforms your current static payloads into Thunder Striker XSS variants, blasting through any WAF in seconds.
 
 ### 🧬 Created Next-Gen Port Scan – NG-Firewalk-PortScan Arsenal
-> When Hping/Nmap Fails, use this.
-
 ### ICMP with DNS  
 > Embeds DNS queries inside ICMP packets to evade traditional protocol filtering.
 
