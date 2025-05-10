@@ -158,6 +158,30 @@ My notable public works are listed below. Private techniques/tools, still active
 - Bypasses content security filters triggered on immediate `eval` usage
 
 
+---
+
+### 🧬 Created Next-Gen PHP Fuzzing Techniques
+
+### 🧬 BSTI (Bytecode-Level Template Injection)
+> Manipulates the template engine’s compiled bytecode cache (`.pyc`/memory) to alter execution paths.  
+
+### 🧬 MSTI (Macro-Level Template Injection)
+> Shadows or poisons macros and partials by redefining them or injecting malicious imports.  
+
+### 🧬 ASTI (AST-Level Template Injection)
+>  Hijacks the in-memory Abstract Syntax Tree or transformer pipeline during compilation.  
+
+### 🧬 FSTI (Filter-Pipeline Template Injection)
+> Abuses filter resolution, fallback logic, or custom chainable filters to escalate code execution.  
+
+### 🧬 GSTI (Global Context Template Injection)
+> Poisons global scope, pre-render hooks, or built-ins not covered by traditional SSTI.  
+
+### 🧬 VSTI (View-Level Template Injection)
+> Injects payloads via unsafe user-controlled template names or view lookup resolution.  
+
+---
+
 ### 🧬 Created Next-Gen Tools
 - Bandasbahen - A browser-oriented fuzzing engine designed to uncover 0-day vulnerabilities, including exploit paths similar to those used by Pegasus but you can also uncover exact paths using this script.
 - Noctua - A GPU-accelerated, AI-powered payload injector that renders and analyzes content in real time to discover cross-site scripting and rendering-based flaws across modern apps, APIs, and endpoints.
