@@ -56,11 +56,11 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ---
 
-### 🧬 Created Next-Gen WAF Techniques and Port Scanner
+### 🧬 Created Next-Gen WAF Bypass Techniques
 > ⚡ 96 WAF Filter Sets Never Seen Before - Rebrands and transforms your current static payloads into Thunder Striker XSS variants, blasting through any WAF in seconds.
 
 ### 🧬 Created Next-Gen Port Scan – NG-Firewalk-PortScan Arsenal
-> This scanner detects live ports, hidden segments, and reveals missing inspection layers – ideal for payload injection, segmentation traversal, and advanced reconnaissance.
+> When Hping/Nmap Fails, use this.
 
 ### ICMP with DNS  
 > Embeds DNS queries inside ICMP packets to evade traditional protocol filtering.
