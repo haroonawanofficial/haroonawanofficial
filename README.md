@@ -1,0 +1,18 @@
+-  Hi, I’m @haroonawanofficial
+- I’m advanced cyber security expert and specialized in inventing new techniques for cyber and information security...
+- Notable Works (never seen before): 
+-- User Computer's Hijacking via DNS Resolver MIRC Bug
+-- New Breed for Cross Site Scripting;
+  - WebGPU / WebXR / WebTransport API fuzzing
+  - Service-Worker cache-poisoning vectors
+  - instantiateStreaming WebAssembly injection
+  - MutationObserver race-condition exploitation
+  - Cross-protocol chains (file:// ↔ http/https ↔ ws://)
+  - Adaptive header morphing / --polymorph WAF-bypass engine
+  - JSON-LD / RDFa / Microdata injection
+  - GraphQL schema autodiscovery + variable fuzz
+  - Prototype-pollution–assisted DOM clobbering
+  - Unicode RLO & BOM disguise encodings
+-- New Breed for Server Request Forgery:
+  - Meta-Application Request Smuggling Forgery
+    - Chains multiple backend calls by smuggling attacker-controlled parameters through one service into another. Abuses trust between microservices when only the frontend enforces access controls.
