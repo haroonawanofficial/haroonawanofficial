@@ -61,8 +61,74 @@ My notable public works are listed below. Private techniques/tools, still active
 #### ⚡ 96 WAF Filter Sets Never Seen Before
 > Rebrands and transforms your current static payloads into Thunder Striker XSS variants, blasting through any WAF in seconds.
 
-#### 🛡️ Advanced Port Scan
-> Invented 30+ new techniques to bypass and outsmart any firewall, including AI-based WAFs. Detects alive ports and identifies missing inspection layers or techniques to inject payloads, part of the NG-Firewalk-PortScan arsenal.
+## 🚀 Advanced Port Scan – NG-Firewalk-PortScan Arsenal
+
+> **Invented 30+ original techniques** to bypass and outsmart any firewall, including **AI/ML-powered WAFs**.  
+> This scanner detects live ports, hidden segments, and reveals missing inspection layers – ideal for payload injection, segmentation traversal, and advanced reconnaissance.
+
+### ICMP with DNS  
+> Embeds DNS queries inside ICMP packets to evade traditional protocol filtering.
+
+### ICMP with HTTP  
+> Transmits full HTTP GET requests over ICMP echo payloads for cross-protocol evasion.
+
+### ICMP Echo with Random Data  
+> Uses randomized binary/text payloads to fingerprint ICMP response behavior.
+
+### TCP SYN-ACK with HTTP  
+> Abuses invalid TCP handshake state (SYN-ACK) to deliver HTTP payloads.
+
+### TCP ACK with DNS  
+> Carries DNS queries in TCP ACK packets, confusing firewall session validation.
+
+### TCP FIN with DNS  
+> Utilizes TCP FIN flag with embedded DNS query to trick DPI state engines.
+
+### TCP PSH with DNS  
+> Combines TCP PUSH flag with DNS payloads to evade stream inspection.
+
+### UDP with HTTP  
+> Sends HTTP headers over UDP to detect misconfigured services or log parsers.
+
+### UDP with ICMP Payload  
+> Injects ICMP messages inside UDP frames — a hybrid spoofing method.
+
+### AI/ML Firewall Bypass  
+> Dynamically morphs headers (e.g., User-Agent) using machine learning to evade rule-based filtering.
+
+### Adaptive Timing Scan (AI‑Driven)  
+> Adjusts packet intervals mid-scan based on live feedback or ML model guidance.
+
+### Mixed Protocol Scan  
+> Alternates between TCP, UDP, and ICMP during the same scan cycle.
+
+### Randomized Payload Scan  
+> Sends polymorphic/random payloads to defeat signature-based firewalls.
+
+### Custom Tool Injection per Port  
+> Automatically executes tools like Nmap with `{target}` and `{port}` placeholder rewriting.
+
+### Exact Device + Firewall Signature Matching  
+> Identifies precise devices using layered detection: TCP flags, TTL, ICMP type, TCP options, and more.
+
+### AI-Based Adaptive Scan Switching  
+> Dynamically changes scanning techniques based on AI model feedback.
+
+### False Positive Detection (ML-Powered)  
+> Filters noisy/inaccurate results using a trained false-positive classifier.
+
+### Weighted Scoring for Hardening Quality  
+> Assigns scores to firewall, segmentation, and IDS presence based on behavioral output.
+
+### Built-in DPI Simulation Layer  
+> Detects and flags:
+> - MITM Attempts  
+> - Session Hijacking  
+> - Fragmentation Attacks  
+> - SYN Flood Behavior  
+> - DNS / ARP / IP Spoofing  
+> - Malformed Packet Responses
+
 
 ---
 
