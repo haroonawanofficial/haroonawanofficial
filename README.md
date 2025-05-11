@@ -245,6 +245,22 @@ My notable public works are listed below. Private techniques/tools, still active
   Sends minimal, malformed WebAssembly binaries to uncover parser or runtime parsing errors.  
 
 
+### 🧬 Created Next-Gen Multi-Command Cross Site Fuzzing Techniques
+> `wtXSS` → WebTransport param injection  
+> `wsXSS` → WASM binary injection fuzzing  
+> `shXSS` → Shadow DOM input reflection  
+> `swXSS` → `ServiceWorker` hijack injection  
+> `pxXSS` → `postMessage` channel injection  
+> `dpXSS` → DOMPoly mutation-based XSS  
+> `vxXSS` → Vector-morphing dual-part payload  
+> `rloXSS` → Right-to-Left Override injection (filename trick)  
+> `homXSS` → Unicode homoglyph-based spoofing (Cyrillic/Latin lookalikes)  
+> `ceoXSS` → Cross-Execution Origin vector  
+> `clXSS` → Cross-layered tag injection across multiple DOM levels  
+> `cdXSS` → Cross-document XSS via frame/iframe injection  
+> `fdXSS` → FormData `multipart/form-data` reflection fuzz  
+> `cmXSS` → Cross-MIME payload injection for XSS via `.gif/.txt`
+
 ### 🧬 Created Next-Gen Tools
 - Bandasbahen - A browser-oriented fuzzing engine designed to uncover 0-day vulnerabilities, including exploit paths similar to those used by Pegasus but you can also uncover exact paths using this script.
 - Noctua - A GPU-accelerated, AI-powered payload injector that renders and analyzes content in real time to discover cross-site scripting and rendering-based flaws across modern apps, APIs, and endpoints.
@@ -254,6 +270,7 @@ My notable public works are listed below. Private techniques/tools, still active
 - MultiSTI - AI-Powered Multi-STI Turbo Charged Fuzzer for 0 Day Discovery in Modern Dynamic Web/Endpoint/Apps
 - MultiServerSide - AI-Powered Multi Request Forgeries Fuzzer for 0-Day Discovery in Modern Dynamic Web/Endpoint/Apps
 - Multi CMDi - AI‑Powered Command Injection Fuzzer for 0 Day Discovery in Modern Dynamic Web/Endpoint/Apps
+- lynx - AI-Powered new breed of Cross Site Hacks including XSS, etc
 
 ---
 
