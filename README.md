@@ -9,13 +9,26 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ---
 
-## 🧠 Notable Works (Original & Unprecedented)
+## 🧠 Notable Private 0 Days Works (Original & Unprecedented)
+> Vendors I Have Discovered 0-Day Vulnerabilities In: Cisco, Juniper, Netgear, TP-Link, Asus, D-Link, Huawei, MikroTik, Ubiquiti, Linksys, Fortinet, HPE (Aruba), ZTE, and Edgecore. Qualcomm, Sierra Wireless, Quectel, Huawei, Telit, Bosch, Continental, Harman (Samsung), Denso, ZTE, Verizon, AT&T, Volkswagen, Toyota, General Motors (OnStar), Tesla, Espressif, Nordic Semiconductor, Particle, Raspberry Pi Foundation, Intel, MediaTek, Texas Instruments, Murata and Micorosft, Android and iOS.
+> Developed a proprietary algorithm bank capable of detecting and neutralizing any Pegasus variant on mobile devices without requiring a jailbreak and identifying new variants in real time.
+
+---
+
+## 🧠 Notable Public Release Works (Original & Unprecedented)
+> Limited Public Releases
+
+### 💻 Converting Phone numbers into Payloads
+- **Many systems allowed incorporating phone numbers**  
+ Hijacking websites, applications, and systems by generating exclusive payloads during phone number and cell phone scan, designed to covertly bypass advanced firewalls and enable full takeover or control or popup XSS or Commands.
+
+### 💻 Window Null Session Hijacking
+- **Null Session Hijacking using Escalations**  
+  Hijacking user machines through any pipelines and registry manipulation over a network or the internet.
 
 ### 💻 User Computer Hijacking
 - **MIRC DNS Resolver Bug Exploitation**  
   Hijacking user machines via malformed DNS response chaining.
-
----
 
 ### 🧬 Created Next-Gen Cross Site Scripting (XSS) Techniques
 
