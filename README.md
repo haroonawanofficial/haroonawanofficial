@@ -11,6 +11,7 @@ My notable public works are listed below. Private techniques/tools, still active
 
 ## 🧠 Notable Private 0 Days Works (Original & Unprecedented)
 > Vendors I Have Discovered 0-Day Vulnerabilities In: Cisco, Juniper, Netgear, TP-Link, Asus, D-Link, Huawei, MikroTik, Ubiquiti, Linksys, Fortinet, HPE (Aruba), ZTE, and Edgecore. Qualcomm, Sierra Wireless, Quectel, Huawei, Telit, Bosch, Continental, Harman (Samsung), Denso, ZTE, Verizon, AT&T, Volkswagen, Toyota, General Motors (OnStar), Tesla, Espressif, Nordic Semiconductor, Particle, Raspberry Pi Foundation, Intel, MediaTek, Texas Instruments, Murata and Micorosft, Android and iOS.
+
 > Developed a proprietary algorithm bank capable of detecting and neutralizing any Pegasus variant on mobile devices without requiring a jailbreak and identifying new variants in real time.
 
 ---
