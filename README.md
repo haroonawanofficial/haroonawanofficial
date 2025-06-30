@@ -3,8 +3,8 @@
 
 ---
 
-## 🧠 Notable Public Release Works (Original & Unprecedented)
-> Limited Public Releases
+## 🧠 Notable Public Release Works
+> Few Techniques & Public Releases
 
 ### 💻 Converting Phone numbers into Payloads
 - **Many systems allowed incorporating phone numbers**  
