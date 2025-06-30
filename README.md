@@ -1,8 +1,5 @@
 # 👋 Hi, I’m Haroon Ahmad Awan
 
-I’m an advanced cybersecurity expert specializing in inventing new, never-seen-before techniques in cyber and information security.
-My notable public works are listed below. Private techniques/tools, still actively used in top-tier industries are not publicly available.
-
 
 ---
 
