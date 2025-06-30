@@ -3,16 +3,6 @@
 I’m an advanced cybersecurity expert specializing in inventing new, never-seen-before techniques in cyber and information security.
 My notable public works are listed below. Private techniques/tools, still actively used in top-tier industries are not publicly available.
 
----
-
-🔐 *Every technique listed here is based on real-world, operational proof-of-concepts built entirely from scratch. Copying my code or tools doesn’t make you a hacker or security researcher, there’s a significant difference. Instead, learn, use, improve, and contribute.*
-
----
-
-## 🧠 Notable Private 0 Days Works (Original & Unprecedented)
-> Vendors I Have Discovered 0-Day Vulnerabilities In: Cisco, Juniper, Netgear, TP-Link, Asus, D-Link, Huawei, MikroTik, Ubiquiti, Linksys, Fortinet, HPE (Aruba), ZTE, and Edgecore. Qualcomm, Sierra Wireless, Quectel, Huawei, Telit, Bosch, Continental, Harman (Samsung), Denso, ZTE, Verizon, AT&T, Volkswagen, Toyota, General Motors (OnStar), Tesla, Espressif, Nordic Semiconductor, Particle, Raspberry Pi Foundation, Intel, MediaTek, Texas Instruments, Murata and Micorosft, Android and iOS.
-
-> Developed a proprietary algorithm bank capable of detecting and neutralizing any Pegasus variant on mobile devices without requiring a jailbreak and identifying new variants in real time.
 
 ---
 
