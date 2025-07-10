@@ -271,16 +271,11 @@
 - MultiSTI - AI-Powered Multi-STI Turbo Charged Fuzzer for 0 Day Discovery in Modern Dynamic Web/Endpoint/Apps
 - MultiServerSide - AI-Powered Multi Request Forgeries Fuzzer for 0-Day Discovery in Modern Dynamic Web/Endpoint/Apps
 - Multi CMDi - AI‑Powered Command Injection Fuzzer for 0 Day Discovery in Modern Dynamic Web/Endpoint/Apps
-- lynx - AI-Powered new breed of Cross Site Hacks including XSS, etc
+- lynx - AI-Powered new breed of Cross Site Hacks including XSS
 
 ---
 
-### 🧬 Third Party Packages of the Tool Next-Gen Tools
-> XSSInspector - Available via apt search xssinspector (Kali or Debian based linux third-party package).
-
----
-
-📫 Connect or collaborate: [haroon@cyberzeus.pk](mailto:haroon@cyberzeus.pk)
+Connect or collaborate: [haroon@cyberzeus.pk](mailto:haroon@cyberzeus.pk)
 
 ---
 
