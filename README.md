@@ -1,7 +1,7 @@
-# 👋 Hi, I’m Haroon Ahmad Awan and below is my work with my team and I alone.
+# 👋 Hi, I’m Haroon Ahmad Awan and below is my work with my team.
 
 - Why these tool are not in Kali/ParrotOS others, beacuse you might not know, those or any offensive distribution has rule, they need to follow, it is called 'ETHICAL', below the information and the poc and the tools break that, so it's almost impossible to get them into any distribution.
-
+- We say it is just for educational purposes only. Learn and Enjoy
 
 ---
 
